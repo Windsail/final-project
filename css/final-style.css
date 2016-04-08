@@ -492,6 +492,7 @@ body {
   position: absolute;
   width: 100%;
   height: 15rem;
+  text-align: center;
 }
 
 .social {
@@ -503,6 +504,7 @@ body {
 .icons {
   margin: 0;
   padding: 0;
+  color: black;
 }
 .social hr {
   border: 0;
