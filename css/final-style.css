@@ -1,0 +1,550 @@
+html {
+  box-sizing: border-box;
+  vertical-align: baseline;
+  background-color: #fff3e8;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: 'Lobster';
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Navigation Section */
+
+.navcontent {
+  width: 60%;
+  padding: 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+  text-align: center;
+}
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.top-navigation .navcontent {
+  width: 100%;
+  min-width: 37.5rem;
+  max-width: 60%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0px 1rem;
+  box-sizing: border-box;
+}
+.top-navigation .navcontent .logo {
+  height: 4.375rem;
+  float: left;
+  transition: .3s;
+}
+.top-navigation .navcontent .links {
+  float: right;
+  color: #6ba5a5;
+  font-size: 1em;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.top-navigation .navcontent .links > li {
+  display: inline-block;
+  padding: .8rem;
+  list-style: none;
+}
+
+.top-navigation a:link {
+  color: #418383;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.top-navigation a:visited {
+  color: #418383;
+  text-decoration: none;
+}
+
+.top-navigation a:hover {
+  color: #a6d2d2;
+  position: relative;
+  /*font-size: 1.15em;*/
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.top-navigation img:hover {
+  -webkit-filter: invert(40%);
+  transition: 1s;
+}
+
+/* Masthead Section */
+
+.masthead-logo {
+  text-align: center;
+  color: white;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('../images/masthead-bg-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60rem;
+  min-width: 100%;
+}
+
+/*This is the svg "Windsail Graphic Design" logo*/
+.masthead-logo {
+  height: 90%; width: auto;
+}
+
+.hr1 {
+  border-color: #fff;
+  max-width: 60%;
+}
+
+.announcement-all {
+  text-align: center;
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 3rem;
+  max-width: 60%;
+}
+
+.announcement1 {
+  font-family: 'Cabin';
+  font-size: 110%;
+  letter-spacing: .5px;
+  text-shadow: 0 2px .05em #000;
+}
+
+.announcement2 {
+  font-family: 'Lobster';
+  font-size: 400%;
+  margin-top: -.3em;
+  text-shadow: 0 2px .05em #000;
+}
+
+.announcement2 {
+  transition: .2s;
+}
+
+.announcement2:hover {
+  text-shadow: 0 0 .2em rgba(255, 255, 255, 0.5);
+  cursor: context-menu;
+  transition: .2s;
+}
+
+.announcement3 {
+  font-weight: 300;
+  display: block;
+  box-sizing: border-box;
+  margin: -1em auto;
+  padding: 8px;
+  background: rgba(10, 10, 10, 0.7);
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .5px;
+  transition: .3s;
+}
+
+.announcement3:hover {
+  background: rgba(10, 10, 10, 1.0);
+  cursor: context-menu;
+}
+
+
+.masthead a:link {
+  color: #a6d2d2;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.masthead a:visited {
+  color: #a6d2d2;
+  text-decoration: none;
+}
+
+.masthead a:hover {
+  color: #fff;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+/* Basics */
+.content {
+  width: 80%;
+  padding: 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+  text-align: center;
+}
+
+.section-title {
+  font-family: 'Lobster';
+  font-size: 7em;
+}
+
+ /* Typograhy Declarations*/
+
+.whole,
+.work,
+.logo,
+.kindwords,
+.contact,
+.footer,{
+	font-weight: 300;
+  font-size: 1.2em;
+  color: #666666;
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10em;
+}
+
+.whole {
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.whole .content {
+  list-style: none;
+  margin-top: 5rem;
+  padding: 0;
+  color: #1d1e21;
+  width: 900px;
+  text-align: center;
+}
+
+/* Content Link Actions */
+
+.content a:link {
+  color: #418383;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.content a:visited {
+  color: #418383;
+  text-decoration: none
+}
+
+.content a:hover {
+  color: #a6d2d2;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+/* Our Work section */
+
+.work .gd-and-wd {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.work .gd-and-wd li {
+  display: inline-block;
+  width: 50%;
+  float:left;
+}
+
+.work .gd-and-wd p {
+  margin-top: -4em;
+  padding: 280px 40px 0 40px;
+  /*text-shadow: 0 .5px .02em #555;*/
+
+}
+
+.work .gd-and-wd .gd {
+  font-weight: 200;
+  width: 400px;
+  height: 320px;
+  float; left;
+
+}
+
+.work .gd-and-wd .wd {
+  font-weight: 200;
+  width: 400px;
+  height: 320px;
+  float: right;
+}
+
+#wrap {
+  position: relative;
+  position: center;
+  background: rgba(31, 97, 97, 0.92);
+  height: 320px;
+  margin-top: -320px;
+  color: white;
+  font-size: 1.5em;
+  transition: .5s;
+}
+
+#wrap p {
+  transition: .2s;
+}
+
+#wrap:hover {
+  background: rgba(31, 97, 97, 0.0);
+  transition: .2s;
+}
+
+#wrap:hover p {
+  color: black;
+  margin-top: 2em;
+  transition: .2s;
+}
+
+/* Professional Logos Section */
+
+.getmylogo {
+  padding-top: 28rem;
+  list-style: none;
+  transition: .3s;
+} 
+
+.getmylogo h2 {
+  font-size: 1.2em;
+}
+
+.getmylogo img {
+  transition: .1s;
+}
+
+.getmylogo img:hover {
+  transform: scale(3);
+  transition: .3s;
+}
+
+.logo-eg {
+  margin: 0;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.logo-eg li {
+  display: inline-block;
+  width: 20%;
+  float:left;
+}
+
+.logo-eg li:hover {
+  font-size: 1.5em;
+  cursor: context-menu;
+}
+
+#logo-egs span {
+  font-size: .75em;
+  font-style: italic;
+  transition: .3s;
+}
+
+#logo-button {
+  box-sizing: border-box;
+  background-color: #418383;
+  margin-top: 2rem;
+  padding: .5em 4em;
+  border: none;
+  transition: .1s;
+}
+
+#logo-button p {
+  color: #fff;
+  font-size: 1.5em;
+  letter-spacing: .125em;
+  transition: .1s;
+}
+
+#logo-button:hover {
+  background-color: #6ba5a5;
+  border-radius: 50px;
+  padding: .5em 8em;
+  box-shadow: 0 .1em .1em rgba(10,10,10,0.3);
+  transition: .3s;
+}
+
+#logo-button:hover p {
+  text-shadow: 0 .1em .1em rgba(10,10,10,0.3);
+  transition: .3s;
+}
+
+/* Kind Words */
+
+.kindwords {
+  margin-top: 6rem;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.kindwords h2 {
+  font-size: 1.2em;
+}
+
+.kindwords .content {
+  margin-top: -2rem;
+  padding: 0;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.kindwords .testimonial {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kindwords .testimonial li {
+  display: inline-block;
+  list-style: none;
+  width: 33.3333333%;
+  float: left;
+  padding: 0 20px;
+}
+
+.kindwords .testimonial h3 {
+  margin: 2.5rem 0px 1.875rem;
+  font-size: 1.3em;
+}
+
+.kindwords .testimonial .business p {
+  margin-top: -1.5rem;
+  font-style: italic;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+#paragraph {
+  padding: 0 25px;
+}
+
+#testimonial {
+  padding: 20px 0 20px 0;
+  transition: 1.5s;
+}
+
+#testimonial:hover {
+  background-color: rgba(255, 255, 255, 1.0);
+  transition: 1s;
+  transition: scale(1.2);
+}
+
+.kindwords li img {
+    transition: .3s;
+}
+
+.kindwords li h3 {
+    transition: .3s;
+}
+
+.kindwords li b {
+  transition: .3s
+}
+.kindwords li:hover img {
+    width: 210px;
+    height: auto;
+    transition: .3s;
+}
+
+.kindwords li:hover h3 {
+    font-size: 1.5em;
+    transition: .3s;
+}
+
+.kindwords li:hover b {
+    font-size: 1.1em;
+    transition: .3s;
+}
+
+/* Footer/Social section */
+
+.contact {
+  margin-top: 0rem;
+  overflow: hidden;
+  padding-bottom: 5rem;  
+  background: white;
+  background-size: 500px 500px;
+}
+
+/* Footer/Social section */
+
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 15rem;
+}
+
+.social {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.icons {
+  margin: 0;
+  padding: 0;
+}
+.social hr {
+  border: 0;
+  border-top: 1px solid gray;
+  margin: 1.313rem 0;
+  display: block;
+  -webkit-margin: 0.5em 0;
+}
+.social .icons li {
+  display: inline-block;
+  list-style: none;
+  text-indent: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1.25rem 1rem;
+  padding: .725rem 0;
+  border-radius: 100%;
+  border: 1px solid gray;
+  transition: all 0.3s ease 0s;
+}
+.social .icons li:hover{
+  cursor: pointer;
+  background: #6ba5a5;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.social h5 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 1rem;
+}
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
+/* responsive declarations */
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }  
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .masthead-logo {
+    padding: 3em 0;
+  }    
+  .content-footer {
+    padding: 1em 0;
+  }
+}
+@media all and not print {
+}
