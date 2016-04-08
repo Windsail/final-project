@@ -265,6 +265,7 @@ body {
 .work .gd-and-wd p {
   margin-top: -4em;
   padding: 280px 40px 0 40px;
+
 }
 
 .work .gd-and-wd .gd {
@@ -272,7 +273,6 @@ body {
   width: 400px;
   height: 320px;
   float; left;
-
 }
 
 .work .gd-and-wd .wd {
@@ -407,9 +407,9 @@ body {
 }
 
 .kindwords .testimonial li {
+  margin-top: 5em;
   display: inline-block;
   list-style: none;
-  margin-top: 5em;
   width: 33.3333333%;
   float: left;
   padding: 0 20px;
@@ -476,6 +476,7 @@ body {
   overflow: hidden;
   padding-bottom: 5rem;  
   background: white;
+  background-size: 500px 500px;
 }
 
 .contact h2 {
@@ -492,7 +493,6 @@ body {
   position: absolute;
   width: 100%;
   height: 15rem;
-  text-align: center;
 }
 
 .social {
@@ -504,10 +504,6 @@ body {
 .icons {
   margin: 0;
   padding: 0;
-  color: black;
-}
-.icons:visited {
-  color:black;
 }
 .social hr {
   border: 0;
@@ -533,9 +529,6 @@ body {
   background: #6ba5a5;
   color: #fff;
   transition: all 0.3s ease 0s;
-}
-.social .icons li:visited{
-  color: black;
 }
 .social h5 {
   font-size: 1rem;
