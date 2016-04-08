@@ -530,6 +530,9 @@ body {
   color: #fff;
   transition: all 0.3s ease 0s;
 }
+.social .icons li:hover a{
+  color: #fff;
+}
 .social h5 {
   font-size: 1rem;
   font-weight: 300;
