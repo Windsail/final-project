@@ -531,6 +531,9 @@ body {
   color: #fff;
   transition: all 0.3s ease 0s;
 }
+.social .icons li:visited{
+  color: black;
+}
 .social h5 {
   font-size: 1rem;
   font-weight: 300;
