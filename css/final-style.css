@@ -246,10 +246,14 @@ body {
 
 /* Our Work section */
 
+.work h2 {
+  font-size: 1.2em;
+}
+
 .work .gd-and-wd {
   margin: 0;
   padding: 0;
-  margin-top: 50px;
+  margin-top: 5em;
 }
 
 .work .gd-and-wd li {
@@ -261,7 +265,6 @@ body {
 .work .gd-and-wd p {
   margin-top: -4em;
   padding: 280px 40px 0 40px;
-  /*text-shadow: 0 .5px .02em #555;*/
 
 }
 
@@ -270,7 +273,6 @@ body {
   width: 400px;
   height: 320px;
   float; left;
-
 }
 
 .work .gd-and-wd .wd {
@@ -405,6 +407,7 @@ body {
 }
 
 .kindwords .testimonial li {
+  margin-top: 5em;
   display: inline-block;
   list-style: none;
   width: 33.3333333%;
@@ -474,6 +477,14 @@ body {
   padding-bottom: 5rem;  
   background: white;
   background-size: 500px 500px;
+}
+
+.contact h2 {
+  font-size: 1.2em;
+}
+
+.contact-form {
+  margin-top: 5em;
 }
 
 /* Footer/Social section */
