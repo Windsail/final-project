@@ -17,10 +17,10 @@ body {
 /* Navigation Section */
 
 .navcontent {
-  width: 60%;
+  width: 70%;
   padding: 0.938rem;
   margin: 0 auto;
-  min-width: 37.5rem;
+  min-width: 50%;
   text-align: center;
 }
 .top-navigation {
