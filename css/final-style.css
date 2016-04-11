@@ -34,6 +34,7 @@ body {
   min-width: 50%;
   max-width: 95%;
   height: 70px;
+  white-space: nowrap;
   margin: 0 auto;
   padding: 0px 1rem;
   box-sizing: border-box;
